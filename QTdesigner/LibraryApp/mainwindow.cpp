@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "objects.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -14,7 +15,7 @@ MainWindow::~MainWindow()
 }
 
 
-
+int userLevel;
 
 void MainWindow::on_menyPageMyProfileBtn_clicked()
 {

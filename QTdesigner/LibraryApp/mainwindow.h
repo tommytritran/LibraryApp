@@ -1,8 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
+#include <iostream>
 #include <QMainWindow>
-
+using namespace std;
 namespace Ui {
 class MainWindow;
 }
